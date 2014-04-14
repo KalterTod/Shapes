@@ -1,5 +1,9 @@
 public abstract class Shape {
 
-  public shape(String name)
-    this.name = name;
+  public shape() { }
+
+  public abstract double getArea();
+
+  public abstract double toString();
+
 }
